@@ -9,6 +9,7 @@
 @author       Roki_100 & jiraph
 @preprocessor stylus
 @var          number rows "Number of video rows" 6
+@var          range -width "Thumbnail Size" [1284, 1000, 2000, 'px']
 ==/UserStyle== */
 
 @-moz-document regexp("https?:\\/\\/(?:www\\.)?youtube\\.com\\/(?:@)?[\\w-]+\\/videos") {
@@ -36,5 +37,9 @@
         margin-right: 4px;
         margin-left: 0px;
         width: calc(100%/var(--ytd-rich-grid-items-per-row) - 4px);
+    }
+    ytd-two-column-browse-results-renderer.style-scope {
+        width: -width !important;
+        max-width: none !important;
     }
 }
