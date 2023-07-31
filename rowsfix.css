@@ -5,6 +5,7 @@
 @version      1.0.0
 @license      GPL3.0
 @author       Roki_100
+@preprocessor stylus
 @var          text rows "Number of video rows" 6
 ==/UserStyle== */
 
