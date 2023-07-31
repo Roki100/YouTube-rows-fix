@@ -8,7 +8,7 @@
 @license      GPL3.0
 @author       Roki_100
 @preprocessor stylus
-@var          text rows "Number of video rows" 6
+@var          number rows "Number of video rows" 6
 ==/UserStyle== */
 
 @-moz-document regexp("https?:\\/\\/(?:www\\.)?youtube\\.com\\/(?:@)?[\\w-]+\\/videos") {
