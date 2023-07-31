@@ -32,5 +32,9 @@
     }
     ytd-rich-item-renderer {
         margin: 8px 2px !important;
+        margin-bottom: 24px;
+        margin-right: 4px;
+        margin-left: 0px;
+        width: calc(100%/var(--ytd-rich-grid-items-per-row) - 4px);
     }
 }
