@@ -7,4 +7,4 @@
 ### Installation & Requirements:
 
 * First of all you need a browser extension, [Stylus](https://github.com/openstyles/stylus), Available here: [Chrome store](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne) [Firefox addons](https://addons.mozilla.org/firefox/addon/styl-us/)
-* Once you have stylus simply head over to [Raw file contents](https://github.com/Roki100/YouTube-rows-fix/raw/main/rowsfix.user.css) and Stylus should pop up asking you to install, thats it!
+* Once you have stylus simply head over to [Raw file contents](https://raw.githubusercontent.com/Roki100/YouTube-rows-fix/main/rowsfix.user.css) and Stylus should pop up asking you to install, thats it!
