@@ -1,0 +1,40 @@
+/* ==UserStyle==
+@name         YouTube - 6 Rows in channel videos page
+@description  Fixes that ugly change where only 4 rows of videos are visble on channel's video page, brings back the OG 6 rows (or you can customize it yourself)
+@namespace    github.com/Roki100/YouTube-rows-fix
+@version      1.0.0
+@license      GPL3.0
+@author       Roki_100
+@var          text rows "Number of video rows" 6
+==/UserStyle== */
+
+@-moz-document regexp("https?:\\/\\/(?:www\\.)?youtube\\.com\\/(?:@)?[\\w-]+\\/videos") {
+    ytd-rich-grid-renderer {
+        --ytd-rich-grid-items-per-row: rows !important;
+        --ytd-rich-grid-posts-per-row: rows !important;
+    }
+    #contents > ytd-rich-grid-row,
+    #contents > ytd-rich-grid-row > #contents {
+        display: contents;
+    }
+    ytd-video-meta-block[rich-meta] #metadata-line.ytd-video-meta-block {
+        font-size: 1.2rem;
+        line-height: 1.8rem;
+        max-height: 3.6rem;
+    }
+    #video-title.ytd-rich-grid-media {
+        font-size: 1.4rem;
+        line-height: 2rem;
+        max-height: 4rem;
+    }
+    ytd-rich-item-renderer {
+        margin-bottom: 24px;
+        margin-right: 4px;
+        margin-left: 0px;
+        width: 210px;
+    }
+    
+    ytd-rich-item-renderer {
+        margin: 8px 2px !important;
+    }
+}
