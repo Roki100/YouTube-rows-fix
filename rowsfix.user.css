@@ -31,13 +31,6 @@
         max-height: 4rem;
     }
     ytd-rich-item-renderer {
-        margin-bottom: 24px;
-        margin-right: 4px;
-        margin-left: 0px;
-        width: 210px;
-    }
-    
-    ytd-rich-item-renderer {
         margin: 8px 2px !important;
     }
 }
