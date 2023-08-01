@@ -8,3 +8,9 @@
 
 * First of all you need a browser extension, [Stylus](https://github.com/openstyles/stylus), Available here: [Chrome store](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne) / [Firefox addons](https://addons.mozilla.org/firefox/addon/styl-us/)
 * Once you have stylus simply head over to [Raw file contents](https://raw.githubusercontent.com/Roki100/YouTube-rows-fix/main/rowsfix.user.css) and Stylus should pop up asking you to install, thats it!
+
+#### Feature todo list:
+* Ability to customize the row count on entire youtube website, not just channel pages, but only as an optional toggle(s)
+
+###### Big thanks to:
+[jiraph](https://github.com/jiraph) (doesn't use github) - For every help with the project, He has helped to solve a math problem with width calculation and he is the creator of thumbnail size customization feature!
