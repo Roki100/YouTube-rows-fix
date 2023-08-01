@@ -1,5 +1,7 @@
 # YouTube rows fix
 
+[![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-238b8b.svg)](https://raw.githubusercontent.com/Roki100/YouTube-rows-fix/main/rowsfix.user.css)
+
 [Userstyles.world](https://userstyles.world/style/11245/youtube-6-rows-in-channel-videos-page)
 
 ## A simple userstyle that fixes that ugly change where only 4 rows of videos are visble on channel's video page, brings back the OG 6 rows or whatever amount you want.
