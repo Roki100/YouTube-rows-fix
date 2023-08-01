@@ -1,6 +1,6 @@
 /* ==UserStyle==
-@name         YouTube - More rows in channel videos page
-@description  Fixes that ugly change where only 4 rows of videos are visble on channel's video page, brings back the OG 6 rows (or you can customize it yourself)
+@name         YouTube - More video rows
+@description  Fixes that ugly change where only 4 rows of videos are visble on channel's video page, makes row count fully customizable, also supports subscription feed and home pages
 @namespace    github.com/Roki100/YouTube-rows-fix
 @homepageURL  https://github.com/Roki100/YouTube-rows-fix
 @updateURL    https://raw.githubusercontent.com/Roki100/YouTube-rows-fix/main/rowsfix.user.css
