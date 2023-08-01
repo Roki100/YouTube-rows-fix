@@ -51,8 +51,12 @@ exec() {
     }
 
     if thumbs {
+        ytd-two-column-browse-results-renderer.style-scope {
+            max-width: -width !important;
+        }
+        
         ytd-two-column-browse-results-renderer.grid-6-columns {
-            width: -width !important;
+            width: 100% !important;
         }
     }
 
