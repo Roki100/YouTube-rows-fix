@@ -10,9 +10,9 @@
 @preprocessor stylus
 @var          number rows "Number of video rows" 6
 @var          checkbox thumbs "Customize thumbnail size" 0
-@var          range -width "Thumbnail Size" [70, 50, 100, 5, '%']
-@var          checkbox thumbradius "Customize thumbnail corner radius" 0
 @var          range -width "Thumbnail Size" [1284, 1000, 2000, 'px']
+@var          checkbox thumbradius "Customize thumbnail corner radius" 0
+@var          range -radius "Thumbnail Corner Radius" [12, 0, 12, 'px']
 @var          checkbox channelPage "Activate on channel page" 1
 @var          checkbox feedPage "Activate on subscriptions page" 0
 @var          checkbox homePage "Activate on home page" 0
