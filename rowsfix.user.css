@@ -57,7 +57,7 @@ exec() {
     }
 
     if thumbradius {
-        ytd-thumbnail[size="large"] a.ytd-thumbnail, ytd-thumbnail[size="large"]::before{
+        ytd-thumbnail[size="large"] a.ytd-thumbnail, ytd-thumbnail[size="large"]::before {
             border-radius: -radius;
         }
     }
@@ -76,7 +76,6 @@ exec() {
 
     if nukeShorts {
         [page-subtype="subscriptions"] {
-
             ytd-item-section-renderer,
             ytd-rich-section-renderer,
             ytd-grid-video-renderer, ytd-rich-item-renderer {
