@@ -10,7 +10,9 @@
 * Once you have stylus simply head over to [Raw file contents](https://raw.githubusercontent.com/Roki100/YouTube-rows-fix/main/rowsfix.user.css) and Stylus should pop up asking you to install, thats it!
 
 #### Feature todo list:
-* Ability to customize the row count on entire youtube website, not just channel pages, but only as an optional toggle(s)
+* Fix home page & subscription page thumbnails to display correctly without nuking shorts
 
 ###### Big thanks to:
 [jiraph](https://github.com/jiraph) (doesn't use github) - For every help with the project, He has helped to solve a math problem with width calculation and he is the creator of thumbnail size customization feature!
+
+##### The nuke shorts functionality code has been borrowed from [YouTube Anti Shorts made by sapondanaisriwan licensed under MIT license.](https://github.com/sapondanaisriwan/youtube-anti-shorts)
