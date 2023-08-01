@@ -14,6 +14,9 @@
 #### Feature todo list:
 * Fix home page & subscription page thumbnails to display correctly without nuking shorts
 
+#### Known issues:
+* Blocking shorts with extensions like blocktube still leaves blank space on front page & subscription feed, you have to use an userstyle blocking method in order to fill that gap, i haven't found any fix for that yet
+
 ###### Big thanks to:
 [jiraph](https://github.com/jiraph) (doesn't use github) - For every help with the project, He has helped to solve a math problem with width calculation and he is the creator of thumbnail size customization feature!
 
