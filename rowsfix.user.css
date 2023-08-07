@@ -18,6 +18,8 @@
 @var          checkbox feedPage "Activate on subscriptions page" 0
 @var          checkbox homePage "Activate on home page" 0
 @var          checkbox nukeShorts "Nuke Shorts on feed&home (Fixes issues)" 0
+@var          checkbox userscript "Enable UserScript Compatibility layer support" 0
+@var          number shortsrows "Number of shorts rows (Userscript only)" 8
 ==/UserStyle== */
 
 exec() {
@@ -101,6 +103,13 @@ exec() {
             }
         }
     }
+
+    if userscript {
+        :root {
+            --rowsfix-by-roki-userscript-rows: rows;
+            --rowsfix-by-roki-userscript-shortsrows: shortsrows;
+        }
+    }
 }
 
 @-moz-document regexp("^(https?://)(www\.)?youtube\.com/(/\?.*)?$") {
@@ -111,6 +120,13 @@ exec() {
     if nukeShorts {
         [page-subtype='home'] ytd-rich-section-renderer:has(a[href^="/shorts/"]) {
             display: none;
+        }
+    }
+
+    if userscript {
+        :root {
+            --rowsfix-by-roki-userscript-rows: rows;
+            --rowsfix-by-roki-userscript-shortsrows: shortsrows;
         }
     }
 }
