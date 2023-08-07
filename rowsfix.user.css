@@ -51,6 +51,10 @@ exec() {
         width: calc(100%/var(--ytd-rich-grid-items-per-row) - 4px);
     }
 
+    .ytd-two-column-browse-results-renderer {
+        padding-inline: 6px;
+    }
+
     if thumbs {
         ytd-two-column-browse-results-renderer.style-scope {
             max-width: -width !important;
@@ -71,9 +75,6 @@ exec() {
         ytd-two-column-browse-results-renderer.grid:not(.grid-disabled):has(ytd-rich-grid-renderer:not([is-shorts-grid])) {
             max-width: 100% !important;
             width: 100% !important;
-            #primary.ytd-two-column-browse-results-renderer {
-                padding-inline: 20px;
-            }
         }
     }
 }
