@@ -4,7 +4,7 @@
 
 [Userstyles.world](https://userstyles.world/style/11245/youtube-6-rows-in-channel-videos-page)
 
-## A simple userstyle that fixes that ugly change where only 4 rows of videos are visble on channel's video page, brings back the OG 6 rows or whatever amount you want.
+### A simple userstyle that fixes that ugly change where only 4 rows of videos are visble on channel's video page, makes row count fully customizable, also supports subscription feed and home pages
 
 ### Installation & Requirements:
 
@@ -17,7 +17,12 @@
 #### Known issues:
 * Blocking shorts with extensions like blocktube still leaves blank space on front page & subscription feed, you have to use an userstyle blocking method in order to fill that gap, i haven't found any fix for that yet
 
+#### Latest changelog (since 1.0.8):
+- 1.0.8:
+  * Implement fullscreen width grid feature, (Related: [#1](https://github.com/Roki100/YouTube-rows-fix/issues/1))
+---
 ###### Big thanks to:
 [jiraph](https://github.com/jiraph) (doesn't use github) - For every help with the project, He has helped to solve a math problem with width calculation and he is the creator of thumbnail size customization feature!
 
+---
 ##### The nuke shorts functionality code has been borrowed from [YouTube Anti Shorts made by sapondanaisriwan licensed under MIT license.](https://github.com/sapondanaisriwan/youtube-anti-shorts)
