@@ -18,6 +18,8 @@
 * Blocking shorts with extensions like blocktube still leaves blank space on front page & subscription feed, you have to use an userstyle blocking method in order to fill that gap, i haven't found any fix for that yet
 
 #### Latest changelog (since 1.0.8):
+- 1.0.9
+  * Padding bugfix
 - 1.0.8:
   * Implement fullscreen width grid feature, (Related: [#1](https://github.com/Roki100/YouTube-rows-fix/issues/1))
 ---
