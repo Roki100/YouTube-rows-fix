@@ -45,6 +45,10 @@ exec() {
         max-height: 4rem;
     }
 
+    #header.ytd-rich-grid-renderer {
+        width: 100%;
+    }
+
     ytd-rich-item-renderer {
         margin: 8px 2px !important;
         margin-bottom: 24px;
