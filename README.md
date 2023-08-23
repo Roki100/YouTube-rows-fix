@@ -19,7 +19,7 @@
 
 #### Latest changelog (since 1.0.8):
 - 1.1.1
-  * Fixed the width of bar that includes video filtering buttons (e.g. "New to you)
+  * Fixed the width of bar that includes video filtering buttons (e.g. "New to you")
 - 1.1.0
   * Added very experimental userscript compatibility layer to help address [#2](https://github.com/Roki100/YouTube-rows-fix/issues/2)
 - 1.0.9
