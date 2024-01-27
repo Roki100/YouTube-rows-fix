@@ -18,7 +18,7 @@
 * Blocking shorts with extensions like blocktube still leaves blank space on front page & subscription feed, you have to use an userstyle blocking method in order to fill that gap, i haven't found any fix for that yet
 
 #### Latest changelog (since 1.0.8):
-- 1.1.2
+- 1.1.2 && 1.1.3
   * Added support for legacy channel URLs (/channels/blablabla/videos)
 - 1.1.1
   * Fixed channel regex not activating on channels including a dot in the URL and fixed the width of bar that includes video filtering buttons (e.g. "New to you")
