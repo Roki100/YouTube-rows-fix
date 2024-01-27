@@ -85,7 +85,7 @@ exec() {
     }
 }
 
-@-moz-document regexp("^(https?://)(?:www\.)?youtube\.com/(?:@)?[\w.-]+/videos(\?.*)?$") {
+@-moz-document regexp("^(https?://)(?:www.)?youtube.com/(?:@)?(?:[\w.-]+|(?:channel/\w+))/videos(\?.*)?$") {
     if channelPage {
         exec()
     }
