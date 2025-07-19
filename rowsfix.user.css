@@ -60,6 +60,10 @@ exec() {
     .ytd-two-column-browse-results-renderer {
         padding-inline: 6px;
     }
+    
+    .yt-thumbnail-view-model__image {
+            background: #000;
+    }
 
     if thumbs {
         ytd-two-column-browse-results-renderer.style-scope {
@@ -72,7 +76,7 @@ exec() {
     }
 
     if thumbradius {
-        ytd-thumbnail[size="large"] a.ytd-thumbnail, ytd-thumbnail[size="large"]::before {
+        ytd-thumbnail[size="large"] a.ytd-thumbnail, ytd-thumbnail[size="large"]::before, .yt-thumbnail-view-model--large, .collections-stack-wiz__collection-stack1--large, .collections-stack-wiz__collection-stack2 {
             border-radius: -radius;
         }
     }
