@@ -62,7 +62,7 @@ exec() {
     }
     
     .yt-thumbnail-view-model__image {
-            background: #000;
+        background: #000;
     }
 
     if thumbs {
