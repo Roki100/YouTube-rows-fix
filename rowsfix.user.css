@@ -39,7 +39,7 @@ exec() {
         max-height: 3.6rem;
     }
 
-    #video-title.ytd-rich-grid-media {
+    #video-title.ytd-rich-grid-media, .yt-core-attributed-string--white-space-pre-wrap {
         font-size: 1.4rem;
         line-height: 2rem;
         max-height: 4rem;
