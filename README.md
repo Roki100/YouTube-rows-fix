@@ -18,6 +18,8 @@
 * Blocking shorts with extensions like blocktube still leaves blank space on front page & subscription feed, you have to use an userstyle blocking method in order to fill that gap, i haven't found any fix for that yet
 
 #### Latest changelog (since 1.0.8):
+- 1.1.5
+  * Fixed styling for YouTube mixes
 - 1.1.4
   * Added support for yet another channel URL type (/c/blabla/videos)
 - 1.1.2 && 1.1.3
@@ -32,7 +34,7 @@
   * Implement fullscreen width grid feature, (Related: [#1](https://github.com/Roki100/YouTube-rows-fix/issues/1))
 ---
 ###### Big thanks to:
-[jiraph](https://github.com/jiraph) (doesn't use github) - For every help with the project, He has helped to solve a math problem with width calculation and he is the creator of thumbnail size customization feature!
+[jiraph](https://github.com/jiraph) - For every help with the project, He has helped to solve a math problem with width calculation and he is the creator of thumbnail size customization feature!
 
 [sapondanaisriwan](https://github.com/sapondanaisriwan) - For [fullscreen width grid code](https://github.com/Roki100/YouTube-rows-fix/issues/1#issuecomment-1666367171), It was a feature requested by 2 people so i decided to "yoink" it into the userstyle :P
 
