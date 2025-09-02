@@ -18,6 +18,8 @@
 * Blocking shorts with extensions like blocktube still leaves blank space on front page & subscription feed, you have to use an userstyle blocking method in order to fill that gap, i haven't found any fix for that yet
 
 #### Latest changelog (since 1.0.8):
+- 1.1.6
+  * Fixed homepage after YouTube made CSS changes
 - 1.1.5
   * Fixed styling for YouTube mixes
 - 1.1.4

@@ -4,14 +4,14 @@
 @namespace    github.com/Roki100/YouTube-rows-fix
 @homepageURL  https://github.com/Roki100/YouTube-rows-fix
 @updateURL    https://raw.githubusercontent.com/Roki100/YouTube-rows-fix/main/rowsfix.user.css
-@version      1.1.5
+@version      1.1.6
 @license      GPL3.0
 @author       Roki_100 & jiraph
 @preprocessor stylus
 @var          number rows "Number of video rows" 6
 @var          checkbox thumbs "Customize thumbnail size" 0
-@var          range -width "Thumbnail Size" [1284, 1000, 2000, 'px']
-@var          checkbox fullwidth "Force fullscreen width grid" 0
+@var          range -width "Grid width" [1500, 1000, 3000, 50, 'px']
+@var          checkbox fullwidth "Force full width grid (overrides grid width)" 0
 @var          checkbox thumbradius "Customize thumbnail corner radius" 0
 @var          range -radius "Thumbnail Corner Radius" [12, 0, 12, 'px']
 @var          checkbox channelPage "Activate on channel page" 1
@@ -33,13 +33,13 @@ exec() {
         display: contents;
     }
 
-    ytd-video-meta-block[rich-meta] #metadata-line.ytd-video-meta-block {
+    ytd-video-meta-block[rich-meta] #metadata-line.ytd-video-meta-block, .yt-content-metadata-view-model > :nth-child(2) > span {
         font-size: 1.2rem;
         line-height: 1.8rem;
         max-height: 3.6rem;
     }
 
-    #video-title.ytd-rich-grid-media, .yt-lockup-metadata-view-model-wiz__title > span {
+    #video-title.ytd-rich-grid-media, .yt-core-attributed-string {
         font-size: 1.4rem;
         line-height: 2rem;
         max-height: 4rem;
@@ -54,7 +54,7 @@ exec() {
         margin-bottom: 24px;
         margin-right: 4px;
         margin-left: 0px;
-        width: calc(100%/var(--ytd-rich-grid-items-per-row) - 4px);
+        width: calc(100%/var(--ytd-rich-grid-items-per-row) - 4px) !important;
     }
 
     .ytd-two-column-browse-results-renderer {
@@ -76,13 +76,13 @@ exec() {
     }
 
     if thumbradius {
-        ytd-thumbnail[size="large"] a.ytd-thumbnail, ytd-thumbnail[size="large"]::before, .yt-thumbnail-view-model--large, .collections-stack-wiz__collection-stack1--large, .collections-stack-wiz__collection-stack2 {
+        a#thumbnail, .collections-stack-wiz__collection-stack1--large, .collections-stack-wiz__collection-stack2, .ytThumbnailViewModelLarge {
             border-radius: -radius;
         }
     }
 
     if fullwidth {
-        ytd-two-column-browse-results-renderer.grid:not(.grid-disabled):has(ytd-rich-grid-renderer:not([is-shorts-grid])) {
+        ytd-two-column-browse-results-renderer.style-scope {
             max-width: 100% !important;
             width: 100% !important;
         }
